@@ -6,15 +6,10 @@ int main(int argc, char const *argv[])
 	cout << "Find Unique Of Array" << endl;
     int arr[] = {2 ,3 ,1 ,6 ,3 ,6 ,2};
     int size = sizeof(arr)/sizeof(arr[0]);
-    int unique;
+    int unique = 0;
     for (int i = 0; i < size; i++)
     {
-        for (int j = 0; j < size; j++)
-        {
-            if(arr[i] != arr[j]){
-                unique = arr[i];
-            }
-        }
+        unique = unique^arr[i]; 
     }
     cout << "Unique : " << unique << endl;
     return 0;
