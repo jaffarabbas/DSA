@@ -1,16 +1,3 @@
 {
-    "files.associations": {
-        "ostream": "cpp",
-        "utility": "cpp",
-        "exception": "cpp",
-        "ios": "cpp",
-        "istream": "cpp",
-        "iterator": "cpp",
-        "memory": "cpp",
-        "streambuf": "cpp",
-        "tuple": "cpp",
-        "xiosbase": "cpp",
-        "xstring": "cpp"
-    },
     "C_Cpp.errorSquiggles": "disabled"
 }
